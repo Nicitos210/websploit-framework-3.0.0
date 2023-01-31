@@ -20,9 +20,22 @@ FakeUpdate - Fake update attack
 Wifi Jammer - Wifi Jammer Attack
 Wifi Dos - Wifi Dos RQ Attack
 Wifi Mass De-authentication attack
+# Download :
+[+]sudo su
+[+]git clone https://github.com/Nicitos210/websploit-framewok-3.0.0
+cd websploit-framewok-3.0.0
+chmod 777 * websploit.py
+mkdir /usr/lib/python2.7/dist-packages/scapy
+cd /usr/lib/python3/dist-packages/
+cp -avr scapy/* /usr/lib/python2.7/dist-packages/scapy
+mkdir /usr/lib/python2.7/dist-packages/scapy
+cd /usr/lib/python3/dist-packages/
+cp -avr scapy/* /usr/lib/python2.7/dist-packages/scapy
+start:
+python2 websploit.py
 
 # Clone
-> Clone: git clone [https://github.com/The404Hacking/websploit.git](https://github.com/The404Hacking/websploit.git)
+> Clone: git clone [https://github.com/Nicitos210/websploit-framewok-3.0.0]
 
 # Follow us !
 [GitHub](https://github.com/Nicitos210)
